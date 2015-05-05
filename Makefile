@@ -24,7 +24,8 @@ hackcli: src/hackcli.o
 	
 
 clean:
-	rm -f hackream src/*.o
+	rm -f hackdream src/*.o
+	rm -f hackcli
 	rm -rf dist
 
 install:
